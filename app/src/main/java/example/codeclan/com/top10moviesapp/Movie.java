@@ -36,4 +36,8 @@ public class Movie {
     public void setRanking(int newRanking) {
         ranking = newRanking;
     }
+
+    public String allDetails() {
+        return "Title: " + title + ", Genre: " + genre + ", Ranking: " + ranking;
+    }
 }

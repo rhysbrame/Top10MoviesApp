@@ -38,5 +38,10 @@ public class MovieTest {
         film.setRanking( 9 );
         assertEquals( 9, film.getRanking());
     }
+
+    @Test
+    public void testAllDetails(){
+        assertEquals( "Title: High Fidelity, Genre: Indie, Ranking: 3" , film.allDetails());
+    }
 }
 
