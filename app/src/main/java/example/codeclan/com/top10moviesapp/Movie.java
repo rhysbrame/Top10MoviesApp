@@ -1,7 +1,5 @@
 package example.codeclan.com.top10moviesapp;
 
-import java.util.ArrayList;
-
 public class Movie {
     private String title;
     private String genre;
